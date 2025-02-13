@@ -1,0 +1,47 @@
+button{
+    
+    margin-left: 50%;
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: center; 
+    list-style-position: inside;  
+    background: #3399ff;
+    padding: 20px;
+}
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+    cursor: pointer;
+  }
+  li:hover{
+    background-color: white;
+
+  }
+
+  .selected{
+    background-color: white;
+  }
+  .button-disable{
+/* border-radius: 20px;
+width: 20px; */
+background-color: grey;
+cursor: not-allowed;
+  }
+  .score{
+    text-align: center;
+   font-weight: bold;
+  
+  }
