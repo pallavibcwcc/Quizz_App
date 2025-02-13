@@ -1,6 +1,6 @@
 button{
     
-    margin-left: 50%;
+    margin-left: 45%;
     background-color: #04AA6D; /* Green */
   border: none;
   color: white;
@@ -19,12 +19,15 @@ ul{
     list-style-position: inside;  
     background: #3399ff;
     padding: 20px;
+   font-weight: bold;
+    line-height: 45px;
 }
 ul li {
     background: #cce5ff;
     color: darkblue;
     margin: 5px;
     cursor: pointer;
+    margin-top: 60px;
   }
   li:hover{
     background-color: white;
